@@ -1,0 +1,9 @@
+# +————————————————————————————————————————————————+ #
+# |————————  EVENTDISABLER CONFIGURATION   ————————| #
+# |————————————————      v1        ————————————————| #
+# +————————————————————————————————————————————————+ #
+#
+# List of disabled events:
+disabled:
+#- 'VillagerAcquireTradeEvent'
+#- 'ItemMergeEvent'

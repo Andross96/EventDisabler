@@ -1,0 +1,13 @@
+name: EventDisabler
+main: fr.eventdisabler.EventDisabler
+version: 1
+author: _Andross
+description: Disable any bukkit event
+commands:
+  eventdisabler:
+    description: Main command for the plugin. Display help.
+    aliases: [ed]
+premissions:
+  eventdisabler.reload:
+    default: op
+    description: reload the event list
