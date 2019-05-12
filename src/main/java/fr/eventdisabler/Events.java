@@ -23,6 +23,7 @@ class Events {
 
         // Registering the events
         HandlerList.unregisterAll(pl);
+        final Listener listener = new Listener() {};
         int count = 0;
         for(String event : events){
             // Getting event class
@@ -45,7 +46,7 @@ class Events {
             };
 
             // Register event
-            pl.getServer().getPluginManager().registerEvent(eventClass, new Listener() {}, EventPriority.LOWEST, eventExecutor, pl, false);
+            pl.getServer().getPluginManager().registerEvent(eventClass, listener, EventPriority.LOWEST, eventExecutor, pl, false);
             count++; // one more event registered
         }
 
