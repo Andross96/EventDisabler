@@ -4,6 +4,9 @@
 # +————————————————————————————————————————————————+ #
 #
 # List of disabled events:
+# The list contains list of worlds where the event will be disabled.
 disabled:
-#- 'VillagerAcquireTradeEvent'
-#- 'ItemMergeEvent'
+#  VillagerAcquireTradeEvent:
+#    - 'world'
+#  ItemMergeEvent:
+#    - '*'

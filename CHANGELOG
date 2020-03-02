@@ -1,1 +1,6 @@
+v1.1:
+  - Added per world support
+  - Revamped config.yml
+  - Optimized code
+---------------
 v1: Initial release
