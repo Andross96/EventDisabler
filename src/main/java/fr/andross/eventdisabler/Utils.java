@@ -15,10 +15,15 @@ import java.util.Set;
 
 public class Utils {
     public static final String[] packagelist = new String[] {
+            // Bukkit
             "org.bukkit.event.block.", "org.bukkit.event.enchantment.", "org.bukkit.event.entity.",
             "org.bukkit.event.hanging.", "org.bukkit.event.inventory." , "org.bukkit.event.player.",
             "org.bukkit.event.server.", "org.bukkit.event.vehicle.", "org.bukkit.event.weather.",
-            "org.bukkit.event.world."
+            "org.bukkit.event.world.",
+            // Paper
+            "com.destroystokyo.paper.event.block", "com.destroystokyo.paper.event.entity",
+            "com.destroystokyo.paper.event.player", "com.destroystokyo.paper.event.profile",
+            "com.destroystokyo.paper.event.server"
     };
 
     public static String color(final String text) {

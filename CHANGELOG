@@ -1,3 +1,6 @@
+v1.2:
+  - Added support for paperspigot events
+---------------
 v1.1:
   - Added per world support
   - Revamped config.yml

@@ -39,6 +39,7 @@ public class Plugin extends JavaPlugin {
         reloadConfig();
 
         // Checking events
+        HandlerList.unregisterAll(this);
         final ConfigurationSection disabledSection = getConfig().getConfigurationSection("disabled");
         if (disabledSection == null) {
             getLogger().info("There is no events to disable.");
@@ -46,7 +47,6 @@ public class Plugin extends JavaPlugin {
         }
 
         // Registering the events
-        HandlerList.unregisterAll(this);
         final Listener listener = new Listener() {};
         int count = 0;
         for (final String eventName : disabledSection.getKeys(false)) {
