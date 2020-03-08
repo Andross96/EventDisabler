@@ -21,9 +21,9 @@ public class Utils {
             "org.bukkit.event.server.", "org.bukkit.event.vehicle.", "org.bukkit.event.weather.",
             "org.bukkit.event.world.",
             // Paper
-            "com.destroystokyo.paper.event.block", "com.destroystokyo.paper.event.entity",
-            "com.destroystokyo.paper.event.player", "com.destroystokyo.paper.event.profile",
-            "com.destroystokyo.paper.event.server"
+            "com.destroystokyo.paper.event.block.", "com.destroystokyo.paper.event.entity.",
+            "com.destroystokyo.paper.event.player.", "com.destroystokyo.paper.event.profile.",
+            "com.destroystokyo.paper.event.server."
     };
 
     public static String color(final String text) {
