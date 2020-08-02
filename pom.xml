@@ -4,11 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>fr.eventdisabler</groupId>
+    <groupId>fr.andross</groupId>
     <artifactId>EventDisabler</artifactId>
-    <version>1.0</version>
+    <version>1.4</version>
+
+    <name>EventDisabler</name>
+    <description>Disable bukkit events</description>
+    <url>https://github.com/Andross96/EventDisabler</url>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
@@ -27,6 +32,11 @@
             <version>1.14-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations-java5</artifactId>
+            <version>19.0.0</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
-
 </project>

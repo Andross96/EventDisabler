@@ -1,3 +1,11 @@
+v1.4:
+ - Added spigot events
+ - Better debugging
+ - Code reorganization
+---------------
+v1.3:
+ - Fixed inventory events: now correctly disabled in the respective worlds.
+---------------
 v1.2:
   - Added support for paperspigot events
 ---------------
