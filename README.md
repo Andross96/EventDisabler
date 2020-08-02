@@ -1,6 +1,5 @@
 # EventDisabler ![GPL-3.0](http://cdn.andross.fr/badges/license.svg) ![Stable](http://cdn.andross.fr/badges/stable.svg) ![Version](http://cdn.andross.fr/badges/v1.4.svg) ![Discord](http://cdn.andross.fr/badges/discord.svg)
 
----
 ### Description
 This plugin is made to easily disable any bukkit events.
 
