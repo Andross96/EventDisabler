@@ -1,6 +1,6 @@
 name: EventDisabler
 main: fr.andross.eventdisabler.EventDisabler
-version: '1.4'
+version: '1.5'
 api-version: '1.13'
 author: _Andross
 description: Disable any bukkit event

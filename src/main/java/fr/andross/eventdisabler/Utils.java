@@ -36,7 +36,7 @@ import java.util.Set;
 
 /**
  * Utility class
- * @version 1.4
+ * @version 1.5
  * @author Andross
  */
 public final class Utils {
@@ -106,6 +106,7 @@ public final class Utils {
         else if (e instanceof WorldEvent) return worlds.contains(((WorldEvent) e).getWorld());
         else if (e instanceof InventoryEvent) {
             final InventoryEvent ie = (InventoryEvent) e;
+            if (ie.getInventory().getViewers().size() == 0) return false;
             final HumanEntity he = ie.getInventory().getViewers().get(0);
             return he != null && worlds.contains(he.getWorld());
         }

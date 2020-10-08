@@ -6,7 +6,7 @@
 
     <groupId>fr.andross</groupId>
     <artifactId>EventDisabler</artifactId>
-    <version>1.4</version>
+    <version>1.5</version>
 
     <name>EventDisabler</name>
     <description>Disable bukkit events</description>

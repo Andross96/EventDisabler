@@ -1,3 +1,6 @@
+v1.5:
+  - Fixed a bug with disabling inventory events
+---------------
 v1.4:
  - Added spigot events
  - Better debugging
